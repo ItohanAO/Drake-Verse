@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(171, 155, 133);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: rgb(129, 120, 91);
+    width: 100%;
+    margin: 0px;
+}
+
+h1{
+    text-align: left;
+    
+}
+.heading{
+    height: 100px;
+   width: 600px;
+   
+   display: inline-block;
+   position: relative;
+   bottom: 100px;
+   left: 20px;
+}
+
+.A{
+    text-align: left;
+    color: rgb(104, 94, 65);
+    
+}
+
+h2{
+    position: relative;
+    left: 40px;
+}
+
+.drake{
+    height: 300px;
+    width: 300px;
+    border: 3px rgb(104, 94, 65) solid;
+    border-radius: 50%;
+    background-image: url(drake.png);
+    background-size:cover;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.transition{
+    border-radius: 3%;
+    font-size: smaller;
+   position: relative;
+   left: 40px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    background-color: rgb(104, 94, 65);
+    text-align: center;
+    padding: 4px;
+    
+
+    transform: scale(1);
+    transition: background-color .3s;
+}
+.transition:hover{
+    transform: scale(1.1);
+    background-color:  rgb(129, 120, 91);
+}
