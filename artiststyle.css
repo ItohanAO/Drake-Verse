@@ -1,3 +1,4 @@
+
 body{
     background-image: url(crowd-people-concert-blurred-background_798986-730.avif);
     background-size: cover;
@@ -84,14 +85,89 @@ h2{
     width: 150px;
     display: inline-block;
     background-color: rgb(104, 94, 65);
-    text-align: center;
-    padding: 4px;
-    
 
-    transform: scale(1);
-    transition: background-color .3s;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 }
-.transition:hover{
+
+/* Main Content */
+.main-content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Drake Image */
+.drake {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 4px solid rgb(35, 23, 82, 0.8);
+    background-image: url('drake.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+/* Heading Section */
+.heading {
+    max-width: 600px;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600; 
+}
+
+.heading .A {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-weight: 300; 
+}
+
+/* Albums Section */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 600; 
+}
+
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Album Card */
+.album {
+    background-color: rgba(35, 23, 82, 0.8);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 270px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-decoration: none;
+    color: white;
+    font-weight: 400; 
+}
+
+.album:hover {
     transform: scale(1.1);
-    background-color:  rgb(129, 120, 91);
+    background-color: rgba(61, 42, 90, 0.9);
+}
+
+.album img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
