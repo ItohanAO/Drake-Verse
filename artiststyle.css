@@ -1,73 +1,101 @@
-body{
-    background-color: rgb(171, 155, 133);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Updated: New font */
+    background: url('https://wallpapercat.com/w/full/e/5/c/14677-3840x2160-desktop-4k-drake-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: rgba(241, 241, 242, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-header{
-    background-color: rgb(129, 120, 91);
-    width: 100%;
-    margin: 0px;
-    font:sans-serif;
-    font-weight: bolder;
-}
-
-h1{
-    text-align: left;
-    
-}
-.heading{
-    height: 100px;
-   width: 600px;
-   
-   display: inline-block;
-   position: relative;
-   bottom: 100px;
-   left: 20px;
-   position: relative;
-    top: -10px;
-}
-
-.A{
-    text-align: left;
-    color: rgb(104, 94, 65);
-    
-}
-
-h2{
-    position: relative;
-    left: 40px;
-}
-
-.drake{
-    height: 300px;
-    width: 300px;
-    border: 3px rgb(104, 94, 65) solid;
-    border-radius: 50%;
-    background-image: url(drake.png);
-    background-size:cover;
-    display: inline-block;
-    margin-left: 40px;
-    margin-top: 0px;
-    
-}
-
-.transition{
-    border-radius: 3%;
-    font-size: smaller;
-   position: relative;
-   left: 40px;
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    background-color: rgb(104, 94, 65);
+/* Header */
+header {
+    background-color: rgba(7, 2, 29, 0.8);
+    color: white;
+    padding: 10px;
     text-align: center;
-    padding: 4px;
-    
-
-    transform: scale(1);
-    transition: background-color .3s;
+    font-size: 1.8rem; /* Enhanced */
+    font-weight: 600; /* Enhanced */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
 }
-.transition:hover{
+
+/* Main Content */
+.main-content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Drake Image */
+.drake {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 4px solid rgb(35, 23, 82, 0.8);
+    background-image: url('drake.png');
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
+
+/* Heading Section */
+.heading {
+    max-width: 600px;
+}
+
+.heading h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 600; /* Enhanced */
+}
+
+.heading .A {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-weight: 300; /* Enhanced */
+}
+
+/* Albums Section */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+    font-weight: 600; /* Enhanced */
+}
+
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual Album Card */
+.album {
+    background-color: rgba(35, 23, 82, 0.8);
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 270px;
+    transition: transform 0.3s, background-color 0.3s;
+    text-decoration: none;
+    color: white;
+    font-weight: 400; /* Enhanced */
+}
+
+.album:hover {
     transform: scale(1.1);
-    background-color:  rgb(129, 120, 91);
+    background-color: rgba(61, 42, 90, 0.9);
+}
+
+.album img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
