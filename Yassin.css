@@ -1,0 +1,80 @@
+
+body{
+    background-color: rgba(0, 0, 0,0.1);
+    color: black;
+    transition: all;
+    transition-duration: 0.5s;
+    background-image:url(drake-honestly-nevermind-video-1.jpg) ;
+}
+hr{
+    height: 2px;
+    width: 200px;
+    position: relative;
+    right: 720px;
+    background-color: red;
+ 
+}
+.li{
+    transition: all;
+    transition-duration: 0.5;
+}
+.li:hover{
+    color: red;
+    transform: scale(1.1);
+    position: relative;
+    left: 100px;
+}
+ul{
+    transition: all;
+    transition-duration: 0.5s;
+}
+ul:hover{
+  height: 50000px;
+}
+body:hover{
+    background-color: black;
+    transform: scale(1.01);
+}
+h2{
+color: white;
+transition: all;
+transition-duration: 0.5s;
+}
+h2:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(230, 255, 255, 0.9);
+    font-size: x-large;
+    transform: scale(2);
+}
+h1{
+    transition: all;
+    transition-duration: 0.5s;
+}
+h1:hover{
+    transform: scale(0.5);
+    background-color: red;
+}
+img{
+    transition: all;
+    transition-duration: 0.5s;
+}
+img:hover{
+    transform: scale(2.5);
+}
+.Songs{
+    color: whitesmoke;
+    height: 1100px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all;
+    transition: 1s;
+}
+
+
+p{
+    color: rgba(255, 255, 255, 0.5);
+    transition: all;
+    transition-duration: 0.5s;
+}
+p:hover{
+    color: blue;
+}
