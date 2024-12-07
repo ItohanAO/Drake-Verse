@@ -1,14 +1,19 @@
 body{
-    background-color: rgb(171, 155, 133);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(crowd-people-concert-blurred-background_798986-730.avif);
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header{
-    background-color: rgb(129, 120, 91);
+    background-color: rgb(75, 39, 66);
+    opacity: 50%;
+    height: 80px;
     width: 100%;
     margin: 0px;
-    font:sans-serif;
-    font-weight: bolder;
+    padding-top: 20px;
+    font-size:xx-large;
+    color: rgb(136, 102, 133);
+    
 }
 
 h1{
@@ -16,20 +21,39 @@ h1{
     
 }
 .heading{
-    height: 100px;
+    height: 250px;
    width: 600px;
+   padding: 20px;
    
+
    display: inline-block;
    position: relative;
    bottom: 100px;
    left: 20px;
    position: relative;
     top: -10px;
+
+}
+
+.background{
+    height: 250px;
+    width: 600px;
+    padding: 20px;
+    background-color:rgb(75, 39, 66);
+    opacity: 50%;
+ 
+    display: block;
+    position: relative;
+    bottom: 100px;
+    right: -370px;
+
+     top: -300px;
 }
 
 .A{
     text-align: left;
     color: rgb(104, 94, 65);
+    opacity: 100%;
     
 }
 
