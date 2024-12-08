@@ -96,3 +96,43 @@ hr {
     margin: 10px 0;
 }
 
+/* Style for the search container */
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Style for the search input */
+.search-bar {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Style for the search button */
+.search-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #87CEFA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.search-button:hover {
+    background-color: #1e90ff;
+}
+
+/* Optional: add focus effect to the search input */
+.search-bar:focus {
+    outline: none;
+    border-color: #87CEFA;
+}

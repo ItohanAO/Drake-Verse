@@ -8,6 +8,12 @@
     <script src="honestlynevermind.js"></script>
 </head>
 <body>
+
+    <div class="search-container">
+        <input type="text" id="searchBar" class="search-bar" placeholder="Search for a song..." onkeyup="filterSongs()">
+        <button class="search-button" onclick="filterSongs()">Search</button>
+    </div>
+    
     <div class="album-container">
         <!-- Album Cover -->
         <img src="Drake-Honestly-Nevermind.webp" alt="Honestly Nevermind Album Cover" class="album-cover">
