@@ -1,0 +1,76 @@
+ h1{
+    font-family: Arial;
+    text-align: center;
+    margin:40px;
+    font-size: 65px;
+    background: red;
+    border-radius: 15px;
+    
+}
+
+.topRight{
+    width: 70%;
+}
+
+.synopsis{
+font-size: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 85%;
+color: whitesmoke;
+}
+
+.top{
+    display: flex;
+}
+
+h2{
+    font-size: 65px;
+}
+
+.albumCover{
+text-align: center;
+height: 700px;
+width: 700px;
+text-align: center;
+display: block;
+margin: auto;
+border-radius: 30px;
+margin-top: 30px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+li {
+
+font-size: 40px;
+text-align: center;
+
+
+}
+
+body {
+ background-color: rgb(26, 26, 26);
+}
+
+.Songs {
+    margin: 60px;
+    color: whitesmoke;
+    border-width: 4px;
+    border-radius: 25px;
+}
+
+li {
+    margin-left: 15px;
+    line-height: 150px;
+    width: max-content;
+}
+
+ul {
+    list-style-position: outside;
+    list-style: none;
+}
+
+hr {
+    color: red;
+}
